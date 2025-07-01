@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>health care...</title>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- header section -->
+<header>
+    <a href="#" class="logo"><i style="font-size:24px" class="fa">&#xf0f1;</i>docHealthCare.</a>
+
+    <nav class="navbar">
+        <a  href="#home">home</a>
+        <a href="#specialities">specialities</a>
+        <a href="#book">symptom checker</a>
+        <a href="#tut"> tutorials</a>
+        <a href="#about">about</a>
+    </nav>`
+
+    <div class="icons">
+        <i class="fas fa-bars" id="tut-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <!-- <a href="#" class="fas fa-heart"></a> -->
+        <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+    </div>
+
+</header>   
+
+<!-- header section ends -->
+
+<!-- search form  -->
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home section starts -->
+<section class="home" id="home">
+<div class="swiper-container home-slider">
+    <div class="swiper-wrapper wrapper">
+        <div class="swiper-slide slide">
+            <div class="content">
+                <!-- <span>our special food</span> -->
+                <h3>Healthcare for Good Today. Tomorrow. Always</h3>
+                <!-- <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quibusdam enim aspernatur?</p> -->
+                <a href="#" class="btn">book now</a>
+            </div>
+            <div class="image">
+                <img src="doc2.png" alt="">
+            </div>
+        </div>
+        <div class="swiper-slide slide">
+            <div class="content">
+                <span>hospital center...</span>
+                <h3>Healthcare for family's health</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet quibusdam enim aspernatur?</p>
+                <a href="#" class="btn">book now</a>
+            </div>
+            <div class="image">
+                <img src="doc1.png" alt="">
+            </div>
+        </div>
+</section>
+<!-- home section end -->
+
+<!-- specialities section starts -->
+<section class="specialities" id="specialities">
+    <h3 class="sub-heading">our specialities</h3>
+    <h1 class="heading">chronic diseases</h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="hypertension.png" alt="">
+            <h3>hypertension</h3>
+            <span>58% affected</span>
+            <a href="#" class="btn">book now</a>
+        </div>
+        <div class="box">
+            
+            <img src="diabetes.png" alt="">
+            <h3>diabetes</h3>
+            <span>27% affected</span>
+            <a href="#" class="btn">book now</a>
+        </div>
+        <div class="box">
+            <img src="depression.jpg" alt="">
+            <h3>depression</h3>
+            <span>14% affected</span>
+            <a href="#" class="btn">book now</a>
+        </div>
+        <div class="box">
+            <img src="high cholestrol.jpg" alt="">
+            <h3>high cholestrol</h3>
+            <span>47% affected</span>
+            <a href="#" class="btn">book now</a>
+        </div>
+        <div class="box">
+            <img src="chronic kidney disease.jpg" alt="">
+            <h3>chronic kidney</h3>
+           <span>18% affected</span>
+            <a href="#" class="btn">book now</a>
+        </div>
+        <div class="box">
+            
+            <img src="heart failure.jpeg.jpg" alt="">
+            <h3>heart failure</h3>
+            
+            <span>14% affected</span>
+            <a href="#" class="btn">book now</a>
+        </div>
+        <div class="box">
+            
+            <img src="alzheimer.png" alt="">
+            <h3>Alzheimer</h3>
+            <span>11% affected</span>
+            <a href="#" class="btn">book now</a>
+        </div>
+        <div class="box">
+            <img src="arthiritis.png" alt="">
+            <h3>arthritis</h3>
+            <span>31% affected</span>
+            <a href="#" class="btn">book now</a>
+        </div>
+    </div>
+</section>
+<!-- specialities section end -->
+
+
+<!-- symptom checker section starts -->
+<section class="book" id="book">
+    <h3 class="sub-heading">register here</h3>
+    <h1 class="heading">save and secure</h1>
+    <form action="" id="feedbackForm">
+        <div class="inputBox">
+            <div class="input">
+                <span>your name</span>
+                <input type="text" id="name" placeholder="enter your name"  required>
+            </div>
+            <div class="input">
+                <span>your age</span>
+                <input type="number" placeholder="enter your age">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>gender</span>
+                <input type="text" placeholder="enter your gender">
+            </div>
+            <div class="input">
+                <span>any allergy</span>
+                <input type="number" placeholder="number of allergies">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>medical history</span>
+                <input type="text" placeholder="enter pre-existing medical conditions">
+            </div>
+            <div class="input">
+                <span>lifestyle factors</span>
+                <input type="text" placeholder="mention if any smoking/alcohol consumptions">
+            </div>
+            <div class="input">
+                <span>Health Goals and Expectations</span>
+                <input type="text" placeholder="enter your health expectations">
+            </div>
+
+            <div class="input">
+                <span>disease</span>
+                <input type="text" id="dis required" placeholder="enter your disease">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <label class="symp" for="symptoms">Symptoms</label>
+                <select id="symptoms" name="symptoms">
+                    <option value="fatigue">fatigue</option>
+                    <option value="dizziness">dizziness</option>
+                    <option value="persistent pain">persistent pain</option>
+                    <option value="Blurred vision">Blurred vision</option>
+                    <option value="Nausea and vomiting">Nausea and vomiting </option>
+                    <option value=" shortness of breath"> shortness of breath</option>
+                  </select>
+
+            </div>
+            <div class="input">
+                <span>your condition</span>
+                <textarea name="" placeholder="write about you condition in details"  id="" cols="30" rows="8"></textarea>
+            </div>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+        <!-- <input type="submit" id="message" onclick="showMessage()" value="submit now" class="btn"> -->
+
+
+    </form>
+    <p style="display: block;z-index: 100;color: black;" id="confirmationMsg"></p>
+
+</section>
+<!-- symptom checker section end -->
+
+<!-- tutorials section start -->
+<section class="tut" id="tut">\
+    <h3 class="sub-heading"> our tutorials</h3>
+    <h1 class="heading">specialist methods </h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/iTapvWBwrz8?si=Hv9NOZDDmTQpnD08" title="YouTube video player" framebbook="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <a href="#" class="fas fa-heart" ></a>
+            </div>
+            <div class="content">
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>hypertension</h3>
+                <p>Hypertension damages blood vessels and increases the risk of serious conditions like stroke and heart attack.</p>
+                <a href="#" class="btn">watch video</a>
+                <span class="pice">free</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/drGshXnqJM0?si=X2-vEny23IUY2XjR" title="YouTube video player" framebbook="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <a href="#" class="fas fa-heart" ></a>
+            </div>
+            <div class="content">
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>diabeties</h3>
+                <p>People with diabetes are also more likely to have heart disease or a stroke, and at an earlier age.</p>
+                <a href="#" class="btn">watch video</a>
+                <span class="pice">free</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Qqf6lGoVJm4?si=PZ40BUy_kS5qgQRn" title="YouTube video player" framebbook="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <a href="#" class="fas fa-heart" ></a>
+            </div>
+            <div class="content">
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>high cholestrol</h3>
+                <p>Nearly half of all seniors on Medicare were treated for high cholesterol. When the body has too many bad fats, arteries get clogged and cause heart disease.</p>
+                <a href="#" class="btn">watch video</a>
+                <span class="pice">free</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6VS6iDMRNS0?si=rHeZwSYIM_EpwSVS" title="YouTube video player" framebbook="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <a href="#" class="fas fa-heart" ></a>
+            </div>
+            <div class="content">
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>arthritis</h3>
+                <p>Osteoarthritis (OA) is the most common form of arthritis. It’s a joint disease where the joint cartilage is breaking down over time.</p>
+                <a href="#" class="btn">watch video</a>
+                <span class="pice">free</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dKRSVEzRIbc?si=F3cfpfnoDtUP8Tgq" title="YouTube video player" framebbook="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <a href="#" class="fas fa-heart" ></a>
+            </div>
+            <div class="content">
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>depression</h3>
+                <p>Depression is a treatable medical condition that is not a normal part of aging.It can cause persistent feelings of sadness, emotional numbness, anxiety, sleep problems, concentration and memory problems</p>
+                <a href="#" class="btn">watch video</a>
+                <span class="pice">free</span>
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1BdNGqASD-c?si=V1nk07-_Tm0ZQx5n" title="YouTube video player" framebbook="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                <a href="#" class="fas fa-heart" ></a>
+            </div>
+            <div class="content">
+                <div class="starts">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>heart failure</h3>
+                <p>Heart failure is when the heart becomes weakened and can’t pump as efficiently and can’t supply enough blood and oxygen to the entire body.</p>
+                <a href="#" class="btn">watch video</a>
+                <span class="pice">free</span>
+            </div>
+        </div>
+        
+    </section>
+    <!-- tutorials section end -->
+
+<!-- about section start  -->
+
+<section class="about" id="about">
+    <h3 class="sub-heading">about us</h3>
+    <h1 class="heading">why choose us?</h1>
+    <div class="row">
+        <div class="image">
+            <img src="about.jpg" alt="">
+        </div>
+
+        <div class="content">
+            <h3>best services in the country</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate distinctio placeat nihil vel impedit debitis repudiandae, amet porro aliquid. Aliquam, debitis suscipit. Provident debitis aspernatur ipsa, molestiae sunt tempora non! ,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat rerum blanditiis ullam deleniti placeat quae provident quaerat incidunt minima aut modi nemo ea laborum, iusto dignissimos inventore excepturi repudiandae expedita.</p>
+             <div class="icon-container">
+                <div class="icon">
+                    <i class="fas fa-shipping-fast"></i>
+                    <span>free delivery</span>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>easy payment</span>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-headset"></i>
+                    <span>24/7 service</span>
+                </div>
+             </div>
+             <a href="#"class="btn">learn more</a>
+        </div>
+    </div>
+</section>
+<!-- about section end  -->
+
+
+<!-- review section start -->
+<section class="review" id="review">
+    <h3 class="sub-heading">Patient's review</h3>
+    <h1 class="heading">what they say</h1>
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="4.jpg" alt="">
+                    <div class="user-info">
+                       <h3>Lalima Singh</h3>
+                       <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum hic eaque, cupiditate sequi quam odio, animi minus voluptatibus neque error quos debitis in amet, rerum vel recusandae tempora reiciendis minima?</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="5.jpg" alt="">
+                    <div class="user-info">
+                       <h3>Vaishnavi</h3>
+                       <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum hic eaque, cupiditate sequi quam odio, animi minus voluptatibus neque error quos debitis in amet, rerum vel recusandae tempora reiciendis minima?</p>
+            </div>
+            <div class="swiper-slide slide">
+                <i class="fas fa-quote-right"></i>
+                <div class="user">
+                    <img src="6.jpg" alt="">
+                    <div class="user-info">
+                       <h3>Vaishnavi Mittal</h3>
+                       <div class="starts">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum hic eaque, cupiditate sequi quam odio, animi minus voluptatibus neque error quos debitis in amet, rerum vel recusandae tempora reiciendis minima?</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- review section end -->
+
+
+
+
+<!-- footer section starts -->
+<section class="footer">
+<div class="box-container">
+    <div class="box">
+        <h3>locations</h3>
+        <a href="#">india</a>
+        <a href="#">japan</a>
+        <a href="#">russia</a>
+        <a href="#">USA</a>
+        <a href="#">canada</a>
+    </div>
+
+    <div class="box">
+        <h3>quick links</h3>
+        <a href="#">home</a>
+        <a href="#">services</a>
+        <a href="#">symptoms checker</a>
+        <a href="#">tutorials</a>
+        <a href="#">review</a>
+        <a href="#">about</a>
+    </div>
+    
+    <div class="box">
+        <h3>contact info</h3>
+        <a href="#">+123-456-7890</a>
+        <a href="#">+111-222-3333</a>
+        <a href="#">lalimasingh9077@gmail.com</a>
+        <a href="#">vishumitl24@gmail.com</a>
+        <a href="#">Ghaziabad, india - 201009</a>
+    </div>
+
+    <div class="box">
+        <h3>follow us</h3>
+        <a href="#">facebook</a>
+        <a href="#">twitter</a>
+        <a href="#">instagram</a>
+        <a href="#">linkedin</a>
+
+    </div>
+</div>
+
+<div class="credit">copyright @ 2023 by <span>vaishnavi</span></div>
+</section>
+<!-- footer section ends -->
+<!-- loader part -->
+<!-- <div class="loader-container">
+    <img src="loader.gif" alt="">
+</div> -->
+
+<div class="loader-container">
+    <img src="loader.gif" alt="">
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js">
+      document.getElementById('feedbackForm').addEventListener('submit', function(event){
+        event.preventDefault();
+        //get form data
+        const formData = new FormData(event.target);
+        const name = formData.get('name');
+        const dis = formData.get('dis');
+
+        let confirmationMsg = document.getElementById('confirmationMsg');
+    confirmationMsg.textContent = `Thank you, ${name}! Your feedback has been submitted.`;
+    confirmationMsg.style.display = 'block'
+    
+    
+        // if(dis==="hypertension"){
+        //     document.writeln("dear"+name+",according to your responses you can take these prevention measures to reduce high blood pressure->1.Maintaina healthy weight. Losing just 10 pounds can reduce blood pressure...2.Regulate your stress levels.");
+        // }
+        
+      });
+    </script>
+
+</body>
+</html>
